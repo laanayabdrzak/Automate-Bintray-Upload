@@ -3,9 +3,9 @@
   var config, console, file, files, folder, fs, _i, _len;
 
   config = {
-    user_name: "paul-verest",
+    user_name: "laanayabdrzak",
     api_key: "ba636be90099ed1",
-    account_or_organization: "paul-verest",
+    account_or_organization: "laanayabdrzak",
     repository: "generic",
     package_name: "package",
     version_name: "0.1.0",
