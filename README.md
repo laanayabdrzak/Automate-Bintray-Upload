@@ -14,9 +14,9 @@ Create file `bintray-config.js` with content like below:
 	  user_name: "laanayabdrzak",
 	  api_key:"ba636be90099ed1",
 	  account_or_organization:"laanayabdrzak",
-	  repository:"generic",
-	  package_name:"package",
-	  version_name:"0.1.0",
+	  repository:"RxConnectivityState",
+	  package_name:"rxconnectivitystate",
+	  version_name:"1.0.0",
 	  file_target_path:"" //#"0_1_0"
 	};
 	
@@ -30,8 +30,10 @@ or
 	
 use generate line like below in `.sh` or `.cmd` file
 
-	curl -T bintray-upload.coffee -upaul-verest:ba636be90099ed1 https://api.bintray.com/content/undefined/generic/package/0.1.0/
-	curl -T bintray-upload.js -upaul-verest:ba636be90099ed1 https://api.bintray.com/content/undefined/generic/package/0.1.0/
+	curl -T bintray-upload.coffee laanayabdrzak:ba636be90099ed1
+	https://bintray.com/laanayabdrzak/RxConnectivityState/rxconnectivitystate/1.0.0/
+	https://api.bintray.com/content/undefined/RxConnectivityState/rxconnectivitystate/1.0.0/
+	curl -T bintray-upload.js laanayabdrzak:ba636be90099ed1 https://api.bintray.com/content/undefined/RxConnectivityState/rxconnectivitystate/1.0.0/
 
 ### How to get curl on Windows ?
 
