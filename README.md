@@ -30,9 +30,9 @@ or
 	
 use generate line like below in `.sh` or `.cmd` file
 
-     curl -T bintray-upload.coffee laanayabdrzak:ba636be90099ed1 https://api.bintray.com/content/undefined/RxConnectivityState/rxconnectivitystate/1.0.0/
+     curl -T bintray-upload.coffee laanayabdrzak:ba636be90099ed1 https://api.bintray.com/content/laanayabdrzak/RxConnectivityState/rxconnectivitystate/1.0.0/
 
-     curl -T bintray-upload.js laanayabdrzak:ba636be90099ed1  https://api.bintray.com/content/undefined/RxConnectivityState/rxconnectivitystate/1.0.0/
+     curl -T bintray-upload.js laanayabdrzak:ba636be90099ed1  https://api.bintray.com/content/laanayabdrzak/RxConnectivityState/rxconnectivitystate/1.0.0/
 
 ### How to get curl on Windows ?
 
