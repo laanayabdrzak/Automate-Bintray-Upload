@@ -4,8 +4,6 @@
 
 automate [Bintray](http://bintray.com) file upload for many files.
 
-`curl -T <FILE.EXT> -upaul-verest:<API_KEY> https://api.bintray.com/content/paul-verest/generic/<UR_COOL_PACKAGE_NAME>/<VERSION_NAME>/<FILE_TARGET_PATH>` 
-
 ## Usage
 
 Create file `bintray-config.js` with content like below:
@@ -13,9 +11,9 @@ Create file `bintray-config.js` with content like below:
 	// configuration
 	// this is javascript module, not JSON to allow comments
 	exports.config = {
-	  user_name: "paul-verest",
+	  user_name: "laanayabdrzak",
 	  api_key:"ba636be90099ed1",
-	  account_or_organization:"paul-verest",
+	  account_or_organization:"laanayabdrzak",
 	  repository:"generic",
 	  package_name:"package",
 	  version_name:"0.1.0",
@@ -65,12 +63,6 @@ From [Bintray User Guide](https://bintray.com/docs/bintrayuserguide.html)
 nodejs, coffee
 
 https://github.com/styleguide/javascript
-
-### Ideas, TODOs
-
-I thought is there node.js libraries that implement culr.
-I searching in NPM Registry <https://npmjs.org/search?q=curl>. There is a dozen modules, mostly 0.1x updated 2 years ago.
-I have tried [node-curl](https://npmjs.org/package/node-curl), I doesn't work on Windows (though I already got curl.exe).
 
 ### Tools
 
