@@ -6,9 +6,9 @@
     user_name: "laanayabdrzak",
     api_key: "ba636be90099ed1",
     account_or_organization: "laanayabdrzak",
-    repository: "generic",
-    package_name: "package",
-    version_name: "0.1.0",
+    repository: "RxConnectivityState",
+    package_name: "rxconnectivitystate",
+    version_name: "1.0.0",
     file_target_path: ""
   };
 
